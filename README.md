@@ -10,12 +10,9 @@ Avoiding false positives would require creating a larger list of longer strings.
 
 ### Usage
 ```
-chmod +x base64exhauster.py
+user@machine:~/base64exhauster$ chmod +x base64exhauster.py
 
-
-./base64exhauster.py -h
-
-
+user@machine:~/base64exhauster$ ./base64exhauster.py -h
 usage: base64exhauster.py [-h] [--encoding ENCODING] sequence
 
 positional arguments:
@@ -29,9 +26,7 @@ optional arguments:
                         utf-8
 
 
-./base64exhauster.py 'Hello, world!'
-
-
+user@machine:~/base64exhauster$ ./base64exhauster.py 'Hello, world!'
 Your string: Hello, world!
 Using encoding: utf-8
 Binary sequence: 01001000 01100101 01101100 01101100 01101111 00101100 00100000 01110111 01101111 01110010 01101100 01100100 00100001 
